@@ -1,12 +1,11 @@
 import java.util.*;
 public class Problem6{
-  private int number;
+	public static void main(String[] args) {
+		Problem6 test = new Problem6();
+		test.FindThedifferenceBetweenSumOfTheSquaresAndTheSquareOfTheSum(100);
+	}
 
-  public Problem6(){ number = 0; }
-	public int getNumber( ){ return number; }
-	public void setNumber( int number ){ this.number = number; }	
-
-	public void FindThedifferenceBetweenSumOfTheSquaresAndTheSquareOfTheSum( int number ){
+	public static void FindThedifferenceBetweenSumOfTheSquaresAndTheSquareOfTheSum( int number ){
 		int sumSquares = 0; 
 		int squaresSum = 0;
 		for ( int i = 1; i <= number; i++) {
