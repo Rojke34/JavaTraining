@@ -18,7 +18,7 @@ public class Problem13{
 		
 		while( indexFinal != longitud + 50 ){
 			number50digit = biggerNumber.substring(indexIntial, indexFinal);
-			BigInteger number = new BigInteger( number50digit.getBytes() );
+			BigInteger number = new BigInteger( number50digit );
 			number50digitList.add( number );
 			indexIntial = indexFinal;
 			indexFinal += 50;
