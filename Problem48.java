@@ -11,6 +11,6 @@ public class Problem48{
 		}
 
 		System.out.println(sum);
-
+		System.out.println("Longitud: " +sum.bitLength());
 	}
 }
